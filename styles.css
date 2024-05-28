@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+h1, h2 {
+    color: #2c3e50;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section {
+    margin-bottom: 40px;
+}
+.section h2 {
+    margin-top: 20px;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+p {
+    margin: 10px 0;
+}
+.prayer {
+    margin-left: 20px;
+}
+.song {
+    margin-left: 20px;
+    font-style: italic;
+}
+em {
+    color: crimson;
+    font-weight:600;
+}
