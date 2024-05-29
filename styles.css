@@ -20,6 +20,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+.center-text {
+    text-align: center;
+}
+
 .section {
     margin-left: 20px;
     margin-right: 20px;
