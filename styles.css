@@ -3,36 +3,46 @@ body {
     line-height: 1.6;
     background-color: #f8f9fa;
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
+
 h1, h2, h3 {
     color: #2c3e50;
     text-align: center;
 }
+
 h1 {
     text-align: center;
     margin-bottom: 20px;
 }
+
 .section {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
 }
+
 .section h2 {
     margin-top: 20px;
     border-bottom: 2px solid #2c3e50;
     padding-bottom: 5px;
 }
+
 p {
     margin: 10px 0;
     padding-bottom: 20px;
 }
+
 .prayer {
     margin-left: 20px 0;
 }
+
 .song {
     margin-left: 20px;
     font-style: italic;
 }
+
 .lead {
     color: crimson;
     font-weight:600;
@@ -46,6 +56,7 @@ p {
     width: 100%;
     bottom: 0;
 }
+
 .icon-box {
     display: inline-block;
     width: 20px;
@@ -53,14 +64,76 @@ p {
     margin-right: 10px;
     vertical-align: middle;
 }
+
 .icon-leader {
     background-color: red;
 }
+
 .icon-all {
     background-color: #2c3e50;
 }
+
 .legend {
     display: inline-block;
     vertical-align: middle;
     font-weight: bold;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #646262;
+}
+
+.navbar li a.active {
+    background-color: #4CAF50;
+}
+
+.content {
+    padding-top: 50px; /* Adjust this value depending on the height of your navbar */
+}
+
+@media screen and (max-width: 600px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+    .navbar li {
+        width: 100%;
+    }
+    .navbar li a {
+        text-align: left;
+        padding: 10px;
+    }
 }
