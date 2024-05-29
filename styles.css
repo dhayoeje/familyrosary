@@ -78,7 +78,7 @@ p {
     vertical-align: middle;
     font-weight: bold;
 }
-
+/* 
 .navbar {
     background-color: #333;
     overflow: hidden;
@@ -123,7 +123,7 @@ p {
 
 .content {
     padding-top: 50px; /* Adjust this value depending on the height of your navbar */
-}
+/* }
 
 @media screen and (max-width: 600px) {
     .navbar ul {
@@ -136,4 +136,4 @@ p {
         text-align: left;
         padding: 10px;
     }
-}
+} */ 
