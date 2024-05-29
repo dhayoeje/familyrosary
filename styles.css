@@ -40,13 +40,21 @@ h1 {
     color: rgb(182, 8, 81);
 }
 
-p {
-    margin: 10px 0;
-    padding-bottom: 20px;
+.some-notes {
+    text-align: right;
 }
+
+/* p {
+    /* margin: 10px 0; */
+    /* padding-bottom: 0px;
+} */ */
 
 .prayer {
     margin-left: 20px 0;
+}
+
+.sw-bg {
+    background-color: #5a23c8;
 }
 
 .song {
