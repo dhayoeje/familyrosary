@@ -24,9 +24,10 @@ h1 {
 }
 p {
     margin: 10px 0;
+    padding-bottom: 20px;
 }
 .prayer {
-    margin-left: 20px;
+    margin-left: 20px 0;
 }
 .song {
     margin-left: 20px;
